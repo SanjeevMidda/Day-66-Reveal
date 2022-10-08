@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.one{
+    border: 1px solid black;
+    flex: 1;
+}
+
+.button{
+    position: absolute;
+    background-color: orange;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.first, .second, .third, .forth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .a{
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+} */
+
+.hidden{
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    /* display: none; */
+}
+
+.update{
+    display:none;
+}
